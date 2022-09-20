@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "812342926230",
+    "firebase_url": "https://cleanapp-a1aff-default-rtdb.firebaseio.com",
+    "project_id": "cleanapp-a1aff",
+    "storage_bucket": "cleanapp-a1aff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812342926230:android:f43b389bb3107a5d66dbb7",
+        "android_client_info": {
+          "package_name": "com.thecode.ortez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812342926230-arulo0ksdljraktanhdk6udrfoc5fhf1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfEyP7S6ofGJJHyr6npFBQ880w_72Gw7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812342926230-arulo0ksdljraktanhdk6udrfoc5fhf1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

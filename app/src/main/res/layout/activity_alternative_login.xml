@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AlternativeLoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/logo" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Al presionar Iniciar sesión, acepta nuestros Términos y condiciones y Política de privacidad"
+            android:gravity="center"
+            android:textColor="@color/md_black_1000"/>
+
+        <Button
+            android:id="@+id/btn_google"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="GOOGLE"
+            android:textColor="@color/white"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_blue_selector"/>
+
+        <Button
+            android:id="@+id/btn_EmailPass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="EMAIL/PASSWORD"
+            android:textColor="@color/white"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/btn_blue_selector"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Problema de conexion ?"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/md_black_1000"/>
+
+        <TextView
+            android:id="@+id/txtCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="No tienes cuenta? Aqui"
+            android:gravity="center"
+            android:textColor="@color/md_black_1000"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
