@@ -7,16 +7,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/img_profile"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
-            android:src="@drawable/user_woman_3"
-            app:civ_border_width="0dp" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_profile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/user_woman_1"
+        app:civ_border_width="0dp" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -29,7 +29,7 @@
                 android:id="@+id/text_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Veronique"
+                android:text="Martha Salgado"
                 android:textColor="@color/md_grey_800"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -39,7 +39,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nouveau Match !"
+                android:text="Nuevo match !"
                 android:textColor="@color/md_grey_400"
                 android:textSize="14sp"
                 android:layout_toEndOf="@id/img_profile"
@@ -68,9 +68,9 @@
                 android:id="@+id/img_content"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/user_woman_3"
                 android:scaleType="centerCrop"
-                android:textColor="@color/white"/>
+                android:src="@drawable/foto_mujer"
+                android:textColor="@color/white" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -145,10 +145,10 @@
                 android:id="@+id/text_date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="7 dec. 2019"
+                android:layout_below="@id/text_location"
+                android:text="7 dec. 2021"
                 android:textColor="@color/md_grey_400"
-                android:textSize="12sp"
-                android:layout_below="@id/text_location"/>
+                android:textSize="12sp" />
 
         </RelativeLayout>
     </RelativeLayout>

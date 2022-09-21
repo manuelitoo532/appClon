@@ -31,10 +31,10 @@ FeedFragment extends Fragment {
     private static final String TAG = MainActivity.class.getSimpleName();
     private List<Match> matchList;
     private MatchListAdapter mAdapter;
-    private String[] matchDates = {"11 Jan. 2020", "26 Dec. 2019", "12 Dec. 2019", "17 Nov. 2019", "06 Oct. 2019"};
-    private int[] matchPictures = {R.drawable.user_woman_1, R.drawable.user_woman_4, R.drawable.user_woman_5, R.drawable.user_woman_6 , R.drawable.user_woman_7};
-    private String[] matchNames = {"Fanelle", "Chloe", "Cynthia", "Kate", "Angele"};
-    private String[] matchLocations = {"a 3 km", "a 18 km", "menos de un kilómetro", "a 4 km", "a 6 km"};
+    private String[] matchDates = {"11 Jan. 2020", "26 Dec. 2019", "12 Dec. 2019", "17 Nov. 2019", "06 Oct. 2019", "01 Enero 2021", "04 Abril 2021", "06 Julio 2021", "05 Agosto 2021"};
+    private int[] matchPictures = {R.drawable.foto_mujer, R.drawable.foto_mujer_2, R.drawable.foto_mujer_3, R.drawable.foto_mujer_4 , R.drawable.foto_mujer_5, R.drawable.foto_mujer_6, R.drawable.foto_mujer_7, R.drawable.foto_mujer_8, R.drawable.foto_mujer_9};
+    private String[] matchNames = {"Martha Salgado", "Rita Centeno", "Sandra Palucho", "Nidia Diaz", "Karina Machado"};
+    private String[] matchLocations = {"San Miguel", "Concepcion Batres", "Santa Maria", "Santa Maria", "Ereguayquin", "Santa Elena", "Usulutan", "Ereguayquin", "San Miguel"};
 
 
     public FeedFragment() {
