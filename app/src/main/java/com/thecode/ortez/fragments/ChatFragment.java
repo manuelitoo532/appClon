@@ -34,11 +34,11 @@ public class ChatFragment extends Fragment {
     private List<MessageItem> messageList;
     private List<Like> likeList;
     private MessageListAdapter mAdapter;
-    private String[] messages = {"Ah d'accord", "Juste par habitude en tout cas", "Hey!", "6946743263", "Give me your number, I will call you"};
+    private String[] messages = {"Santa Elena", "Usulutan", "Ereguayquin", "San Miguel", "San Salvador"};
     private int[] counts = {0, 3, 0, 0, 1};
-    private int[] messagePictures = {R.drawable.user_woman_3, R.drawable.user_woman_4, R.drawable.user_woman_5, R.drawable.user_woman_6 , R.drawable.user_woman_7};
+    private int[] messagePictures = {R.drawable.foto_mujer_6, R.drawable.foto_mujer_7 , R.drawable.foto_mujer_8, R.drawable.foto_mujer_9 , R.drawable.user_woman_7};
     private int[] likePictures = {R.drawable.user_woman_1, R.drawable.user_woman_2};
-    private String[] messageNames = {"Fanelle", "Chloe", "Cynthia", "Kate", "Angele"};
+    private String[] messageNames = {"Nayeli Mejia", "Deysi Bolaños", "Diana Escalante", "Arely Flamenco", "Angela Muñoz"};
     private String[] likeNames = {"Sophie", "Clara"};
 
     public ChatFragment() {
